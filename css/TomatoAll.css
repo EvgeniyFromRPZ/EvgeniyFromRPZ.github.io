@@ -1,0 +1,205 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    color: #324950;
+    background-color: #FCF0F0;
+    padding:0;
+    margin: 0;
+}
+.container {
+    max-width: 1920px;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #FFFAFA;
+}
+.head {
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 1130px;
+    height: 113px;
+    left: 388px;
+    right: 405px;
+    display: flex;
+    justify-content: space-between;
+}
+.logotip {
+    width: 225px;
+    height: 113px;
+} 
+.HeadSerch{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.search {
+    width: 350px;
+    height: 29px;
+    border-bottom: solid 1px black;
+    background: rgba(0,0,0,0);
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+.SearchInput{
+    background: transparent;
+    border: 0;
+    font-weight:500;
+}
+.SerchIcon {
+    margin: 3px 0;
+    width: 18px;
+    height: 18px;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 499px;
+    height:25px;
+    font-weight:700;
+    margin-right: auto;
+}
+.middle {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.MiddleTitle{
+    margin-top: 40px;
+    font-size: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 109px;
+}
+.MiddleText{
+    margin: 0;
+}
+.union {
+    width: 47px;
+}
+.Abzac {
+    margin-top: 40px;
+    color: #324950;
+    font-size: 17px;
+}
+.FirstLine {
+    margin-right: 24px;
+}
+.FirstText {
+    display: flex;
+    margin-bottom: 35px;
+
+}
+.FirstMiniText {
+    margin: auto 0;
+}
+.SecondText {
+    height: 390px;
+    background-color: #FFFAFA;
+} 
+.SecondLine {
+    margin: 25px 0;
+}
+.SecondSpecialText {
+    font-size: 17px;
+}
+.SecondSpecialText2 {
+    font-size: 17px;
+    margin-top: 24px;
+}
+.SecondTitle {
+    margin-top: 25px;
+    font-size: 20px;
+}
+.Third {
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+.ThirdLine {
+    margin-right: 24px;
+}
+.MiniText {
+    margin-top: 25px;
+    font-size: 18px;
+    
+}
+.Fourth {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.FourthTomato  {
+    width: 350px;
+    margin: 0;
+}
+.FourthText {
+    text-align: center;
+    color: #57984C;
+    font-size: 20;
+}
+.FooterTop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D3F45;
+}
+.FooterItem {
+    color: #FFFFFF;
+    margin-right: 45px;
+}
+.FooterLink {
+    display: flex;
+    justify-content: space-between;
+}
+.FooterList {
+    margin-left: 400px;
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    width: 724px;
+    height: 23px;
+}
+.Social{
+    display:flex;
+    list-style-type: none;
+    margin-right: 400px;
+}
+.footer {
+    width: 1920px;
+    height: 76px;
+}
+.FooterSocial {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.FooterBottom {
+    width: 1920px;
+    height: 51px;
+    background-color: #324950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FooterText {
+    font-size: 14px;
+    color: #B9B9B9;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #324950;
+}
+a:hover {
+    color: #324950;
+    text-decoration: none;
+}
