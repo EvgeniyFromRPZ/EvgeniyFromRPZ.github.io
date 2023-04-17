@@ -1,0 +1,252 @@
+body {
+    max-width: 1920px;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    color: #324950;
+    background-color: #E5E5E5;
+    padding:0;
+    margin: 0;
+}
+a {
+    color: #324950;
+}
+a:hover {
+    color: #324950;
+    text-decoration: none;
+}
+a.BottomLink {
+    color: white;
+}
+.container {
+    max-width: 1920px;
+    padding: 0 0;
+    margin: 0 auto;
+}
+.header{
+    margin: 0;
+    padding-bottom: 0px;
+    width: auto;
+    background-color: #FFFAFA;
+}
+.head {
+    margin: auto auto;
+    max-width: 1130px;
+    padding-top: 20px;
+    width: 100%;
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+.logotip {
+    width: 166px;
+    height: 83px;
+}
+.HeadSerch{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.search {
+    width: 350px;
+    height: 29px;
+    border-bottom: solid 1px black;
+    background: rgba(0,0,0,0);
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+.SearchInput{
+    background: transparent;
+    border: 0;
+}
+.SerchIcon {
+    margin: 3px 0;
+    width: 18px;
+    height: 18px;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 499px;
+    height:25px;
+    font-weight:700;
+    margin-right: auto;
+}
+.MenuItem {
+    color: #3d5e68;
+}
+.middle {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 110px;
+    max-width: 526px;
+    width: 100%;
+}
+.ContactText {
+    font-size: 44px;
+    font-weight: bold;
+}
+.Information {
+    margin: 20px 0;
+    
+}
+.InformationInputText {
+    width: 350px;
+    height: 55px;
+    top: 849px;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    background: #FFFFFF;
+    
+}
+.InformationInputText2 {
+    width: 633.9px;
+    height: 390px;
+    border-radius: 10px;
+    border: #DADADA;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    background: #FFFFFF;
+    
+}
+.InformationInputText3 {
+    max-width: 660px;
+    width: 635px;
+    height: 55px;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+.StartText {
+    max-width: 660px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #DADADA;
+    height: 55px;
+}
+.Captcha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ImageCaptcha {
+    width: 99px;
+    height: 27px;
+}
+.InputTextCaptcha {
+    width: 225px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+.Button {
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+    width: 255px;
+    height: 55px;
+    left: 1260px;
+    top: 1520.5px;
+
+}
+.text {
+    font-size: 14px;
+    color: #B9B9B9;
+    margin: 0;
+    padding: 0;
+}
+.union {
+    margin-top:25px;
+    margin-bottom: 50px;
+    max-width: 47px;
+    width: 100%;
+}
+.AgrideraSeeds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.AgrideraSeedsText {
+    text-align: center;
+    width: 241px;
+    height: 52px;
+    font-size: 18px;
+}
+.AgrideraSeedsTitle {
+    color: green;
+    font-size: 24px;
+}
+.FooterTop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D3F45;
+}
+.FooterItem {
+    color: #FFFFFF;
+    margin-right: 45px;
+}
+.FooterLink {
+    display: flex;
+    justify-content: space-between;
+}
+.FooterList {
+    margin-left: 400px;
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    width: 724px;
+    height: 23px;
+}
+.Social{
+    display:flex;
+    list-style-type: none;
+    margin-right: 400px;
+}
+.footer {
+    width: 1920px;
+    height: 76px;
+}
+.FooterSocial {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.FooterBottom {
+    width: 1920px;
+    height: 51px;
+    background-color: #324950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FooterText {
+    font-size: 14px;
+    color: #B9B9B9;
+    margin: 0;
+    padding: 0;
+}
+.Telephone {
+    color: green;
+}
+a.Telephone {
+    color: green;
+}
+a.Telephone:hover {
+    color: green;
+}

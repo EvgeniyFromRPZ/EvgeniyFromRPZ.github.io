@@ -1,0 +1,245 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    color: #324950;
+    padding:0;
+    margin: 0;
+}
+a {
+    color: #324950;
+}
+a:hover {
+    color: #324950;
+    text-decoration: none;
+}
+.container {
+    max-width: 1920px;
+    padding: 0 0;
+    margin: 0 auto;
+}
+.header {
+    width: 1920px;
+    height: 850px;
+}
+.logotip {
+    width: 166px;
+    height: 83px;
+}
+.head {
+    margin: auto;
+    max-width: 1130px;
+    padding-top: 20px;
+    width: 100%;
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+.HeadSerch{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.search {
+    width: 350px;
+    height: 29px;
+    border-bottom: solid 1px black;
+    background: rgba(0,0,0,0);
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+.SearchInput{
+    background: transparent;
+    border: 0;
+}
+.SerchIcon {
+    margin: 3px 0;
+    width: 18px;
+    height: 18px;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 499px;
+    height:25px;
+    font-weight:700;
+    margin-right: auto;
+}
+.MenuItem {
+    color: #3d5e68;
+}
+.middle {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.MiddleReturn{
+    display: flex;
+    flex-direction: row;
+    max-width: 185px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.MiddleReturnText {
+    color: #57984C;
+    font-size: 14px;
+}
+.MiddleBack {
+    height: 8px;
+}
+.MiddleTitle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 277px;
+    max-width: 526px;
+    width: 100%;
+}
+.MiddleTitleText {
+    font-size: 54px;
+}
+.Text {
+    font-weight: bold;
+    font-size: 54px;
+}
+.DeterminateText {
+    color: #57984C;
+    font-weight: bold;
+    font-size: 54px;
+}
+.union {
+    max-width: 47px;
+    width: 100%;
+}
+.Fruits {
+    margin: 20px 0;
+    max-width: 498px;
+    height: 86px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+.FruitsRedText {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin-right: 20px;
+}
+.FruitsText {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.OllChara {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 149px;
+    margin-bottom: 15px;
+}
+.OllCharaTitleText{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    color: green;
+}
+.line {
+    max-width: 183px;
+    width: 100%;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ResistanceText {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.PlantFruitCycleText span {
+    color: #324950;
+    font-size: 17px;
+}
+.PlantFruitCycle {
+    padding-left: 15px;
+}
+.Chara {
+    padding-left: 0;
+}
+.Image {
+    max-width: 540px;
+    width: 100%;
+    position: relative;
+}
+.Button {
+    align-items: end;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    max-width: 225px;
+    height: 55px;
+    width: 100%;
+    margin-left: auto;
+}
+.FooterTop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D3F45;
+}
+.FooterItem {
+    color: #FFFFFF;
+    margin-right: 45px;
+}
+.FooterLink {
+    display: flex;
+    justify-content: space-between;
+}
+.FooterList {
+    margin-left: 400px;
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    width: 724px;
+    height: 23px;
+}
+.Social{
+    display:flex;
+    list-style-type: none;
+    margin-right: 400px;
+}
+.footer {
+    width: 1920px;
+    height: 76px;
+}
+.FooterSocial {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.FooterBottom {
+    width: 1920px;
+    height: 51px;
+    background-color: #324950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FooterText {
+    font-size: 14px;
+    color: #B9B9B9;
+    margin: 0;
+    padding: 0;
+}
